@@ -133,7 +133,8 @@ public class TextInputTest : ScreenProgram
 
     public override void Draw()
     {
-        EasyDesktopAPI.DrawInput(this, nav, Test, "Type here!", 10f, 10f);
+        UIUtil Util = new(R, this, nav);
+        Util.DrawInput(this, nav, Test, "Type here!", 10f, 10f);
         if (this.backButtonDown)
         {
             this.screenSystem.SetMenu(1);
