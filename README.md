@@ -1,4 +1,4 @@
-# Modding Framework For [Easy Delivery Co](https://store.steampowered.com/app/3293010/Easy_Delivery_Co/).
+# Modding API For [Easy Delivery Co](https://store.steampowered.com/app/3293010/Easy_Delivery_Co/).
 
 # Features
 ## Reworked Save System
