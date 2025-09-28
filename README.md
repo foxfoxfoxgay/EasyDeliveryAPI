@@ -165,7 +165,7 @@ public class EasyDeliveryHudTest : MonoBehaviour
    
     public void FrameUpdate(sHUD hud)
     {
-        EasyDeliveryAPI.Log.LogInfo("hi!");
+        EasyAPI.Log.LogInfo("hi!");
         MiniRenderer R = (RField.GetValue(hud) as MiniRenderer);
         Vector2 vector = new Vector2((float)(R.width - 64 - 68), (float)(R.height - 64));
         R.put("yeagh", vector.x, vector.y - 40f );
